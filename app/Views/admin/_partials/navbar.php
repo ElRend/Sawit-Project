@@ -24,40 +24,19 @@
         </li>
         <!--end::Fullscreen Toggle-->
         <!--begin::User Menu Dropdown-->
-        <li class="nav-item dropdown user-menu">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-            <img
-            src="<?= base_url('assets/img/user2-160x160.jpg') ?>"
-            class="user-image rounded-circle shadow"
-            alt="User Image"
-            />
-            <span class="d-none d-md-inline">Alexander Pierce</span>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-            <!--begin::User Image-->
-            <li class="user-header text-bg-primary">
-            <img
-                src="<?= base_url('assets/img/user2-160x160.jpg') ?>"
-                class="rounded-circle shadow"
-                alt="User Image"
-            />
-            <p>
-                Alexander Pierce - Web Developer
-                <small>Member since Nov. 2023</small>
-            </p>
+            <li class="nav-item dropdown user-menu">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle"></i>
+                    <span class="d-none d-md-inline">Admin</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a href="/logout" class="dropdown-item">Sign out</a>
+                    </li>
+                </ul>
             </li>
-            <!--end::User Image-->
-            <!--begin::Menu Body-->
-            <!--end::Menu Body-->
-            <!--begin::Menu Footer-->
-            <li class="user-footer">
-            <a href="#" class="btn btn-default btn-flat">Profile</a>
-            <a href="/logout" class="btn btn-default btn-flat float-end">Sign out</a>
-            </li>
-            <!--end::Menu Footer-->
-        </ul>
-        </li>
-        <!--end::User Menu Dropdown-->
+            <!--end::User Menu Dropdown-->
+
     </ul>
     <!--end::End Navbar Links-->
     </div>

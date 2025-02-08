@@ -3,6 +3,7 @@
     <div class="sidebar-brand">
         <!--begin::Brand Link-->
         <a href="/admin/dashboard" class="brand-link">
+            <img src="<?= base_url('') ?>" alt="AdminLTE Logo" class="brand-image opacity-75 shadow">
             <span class="brand-text text-dark fw-bold fs-3">Sawit Project</span>
         </a>
         <!--end::Brand Link-->
@@ -34,14 +35,8 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="/admin/produksi" class="nav-link" onmouseover="this.classList.add('shadow-sm')" onmouseout="this.classList.remove('shadow-sm')">
-                                <i style="color: #343a40;" class="nav-icon bi bi-circle "></i>
+                                <i style="color: #343a40;" class="nav-icon bi bi-list "></i>
                                 <p style="color: #343a40;">Daftar Produksi</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/admin/produksi/tambah" class="nav-link" onmouseover="this.classList.add('shadow-sm')" onmouseout="this.classList.remove('shadow-sm')">
-                                <i style="color: #343a40;" class="nav-icon bi bi-circle"></i>
-                                <p style="color: #343a40;">Tambah Produksi</p>
                             </a>
                         </li>
                     </ul>
@@ -59,14 +54,8 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="/admin/pohon" class="nav-link" onmouseover="this.classList.add('shadow-sm')" onmouseout="this.classList.remove('shadow-sm')">
-                                <i style="color: #343a40;" class="nav-icon bi bi-circle"></i>
+                                <i style="color: #343a40;" class="nav-icon bi bi-list"></i>
                                 <p style="color: #343a40;">Daftar Pohon</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/admin/pohon/tambah" class="nav-link" onmouseover="this.classList.add('shadow-sm')" onmouseout="this.classList.remove('shadow-sm')">
-                                <i style="color: #343a40;" class="nav-icon bi bi-circle"></i>
-                                <p style="color: #343a40;">Tambah Pohon</p>
                             </a>
                         </li>
                     </ul>
@@ -75,8 +64,8 @@
                 <li class="nav-header text-secondary">Profiles</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" onmouseover="this.classList.add('shadow-sm')" onmouseout="this.classList.remove('shadow-sm')">
-                        <i style="color: #343a40;" class="nav-icon bi bi-download"></i>
-                        <p style="color: #343a40;">Installation</p>
+                        <i style="color: #343a40;" class="nav-icon bi bi-person-fill-gear"></i>
+                        <p style="color: #343a40;">Profile User</p>
                     </a>
                 </li>
             </ul>

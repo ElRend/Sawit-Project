@@ -23,7 +23,9 @@
             <div class="card-header">
                 <div class="content d-flex justify-content-between align-items-center">
                     <h1 class="fw-bolder me-auto fs-3">Daftar Pohon</h1>
-                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#tambahPohonModal">Tambah Pohon</button>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#tambahPohonModal">
+                        <i class="nav-icon bi bi-plus-circle "></i>
+                        Tambah Pohon</button>
                 </div>
             </div>
             <div class="card-body">

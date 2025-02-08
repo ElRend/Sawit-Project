@@ -23,7 +23,10 @@
         <div class="card-header">
             <div class="content d-flex justify-content-between align-items-center">
                 <h1 class="fw-bolder me-auto fs-3">Daftar Produksi</h1>
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#tambahProduksiModal">Tambah Produksi</button>
+                <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#tambahProduksiModal">
+                    <i class="nav-icon bi bi-plus-circle "></i>
+                    Tambah Produksi
+                </button>
             </div>
         </div>
         <div class="card-body">
