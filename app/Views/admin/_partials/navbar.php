@@ -8,8 +8,9 @@
             <i class="bi bi-list"></i>
         </a>
         </li>
-        <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item d-none d-md-block"><a href="/admin/dashboard" class="nav-link">Dashboard</a></li>
+        <li class="nav-item d-none d-md-block"><a href="/admin/pohon" class="nav-link">Pohon</a></li>
+        <li class="nav-item d-none d-md-block"><a href="/admin/produksi" class="nav-link">Produksi</a></li>
     </ul>
     <!--end::Start Navbar Links-->
     <!--begin::End Navbar Links-->
@@ -51,7 +52,7 @@
             <!--begin::Menu Footer-->
             <li class="user-footer">
             <a href="#" class="btn btn-default btn-flat">Profile</a>
-            <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+            <a href="/logout" class="btn btn-default btn-flat float-end">Sign out</a>
             </li>
             <!--end::Menu Footer-->
         </ul>

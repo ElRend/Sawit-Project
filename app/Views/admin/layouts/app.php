@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?= $this->include('admin/_partials/head.php') ?>
-
 </head>
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
     <!--begin::App Wrapper-->

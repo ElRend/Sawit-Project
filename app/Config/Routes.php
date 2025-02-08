@@ -11,6 +11,20 @@ use CodeIgniter\Router\RouteCollection;
  
  $routes->get('/login', 'LoginController::index');
 
- $routes->get('/admin/dashboard', 'DashboardController::index');
- $routes->get('/admin/pohon', 'PohonController::index');
- $routes->get('/admin/produksi', 'ProduksiController::index');
+
+ $routes->group('admin', static function ($routes) {
+    $routes->get('dashboard', 'DashboardController::index');
+
+    $routes->get('pohon', 'PohonController::index');
+    $routes->post('pohon/create', 'PohonController::create');
+    $routes->post('pohon/update/(:any)', 'PohonController::update/$1');
+    $routes->delete('pohon/delete/(:any)', 'PohonController::delete/$1');
+
+    $routes->get('produksi', 'ProduksiController::index');
+    $routes->post('produksi/create', 'ProduksiController::create');
+    $routes->post('produksi/update/(:any)', 'ProduksiController::update/$1');
+    $routes->delete('produksi/delete/(:any)', 'ProduksiController::delete/$1');
+
+
+});
+

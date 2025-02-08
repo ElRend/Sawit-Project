@@ -11,4 +11,9 @@ class DashboardController extends BaseController
     {
         return view('admin/dashboard');
     }
+
+    public function create(){
+        
+        return view('produksi.produksi_create');
+    }
 }

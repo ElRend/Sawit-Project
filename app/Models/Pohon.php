@@ -27,8 +27,8 @@ class Pohon extends Model
      */
     protected function generateSlug(array $data)
     {
-        if (isset($data['data']['nama_pohon'])) {
-            $data['data']['slug'] = url_title($data['data']['nama_pohon'], '-', true);
+        if (isset($data['data']['jenis_bibit'])) {
+            $data['data']['slug'] = url_title($data['data']['jenis_bibit'], '-', true);
         }
 
         return $data;
