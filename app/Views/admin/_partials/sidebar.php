@@ -3,7 +3,7 @@
     <div class="sidebar-brand">
         <!--begin::Brand Link-->
         <a href="/admin/dashboard" class="brand-link">
-            <img src="<?= base_url('') ?>" alt="AdminLTE Logo" class="brand-image opacity-75 shadow">
+            <img src="<?= base_url('assets/img/logosawitprojek.png') ?>" alt="AdminLTE Logo" class="brand-image">
             <span class="brand-text text-dark fw-bold fs-3">Sawit Project</span>
         </a>
         <!--end::Brand Link-->

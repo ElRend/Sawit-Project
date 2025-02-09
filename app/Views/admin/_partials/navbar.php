@@ -27,7 +27,7 @@
             <li class="nav-item dropdown user-menu">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-person-circle"></i>
-                    <span class="d-none d-md-inline">Admin</span>
+                    <span class="d-none d-md-inline"><?= session()->get('username') ?></span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li>
